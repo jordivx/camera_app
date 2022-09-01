@@ -2,6 +2,7 @@
 import 'dart:io';
 
 import 'package:camera/camera.dart';
+import 'package:camera_app/gallery_screen.dart';
 import 'package:flutter/material.dart';
 
 class CameraScreen extends StatefulWidget {
@@ -108,7 +109,7 @@ class _CameraScreenState extends State<CameraScreen> {
                             images: capturedImages.reversed.toList()
                           )
                       )
-                    )
+                    );
                   },
                   child: Container(
                     height: 60,
